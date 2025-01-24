@@ -18,7 +18,7 @@ export function convertAmountFromMilliUnits(amount: number) {
 export function formatCurrency(value: number) {
   return Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "INR",
+    currency: "USD",
     minimumFractionDigits: 2,
   }).format(value)
 }
